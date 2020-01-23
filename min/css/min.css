@@ -12,13 +12,14 @@ nav {
 
 nav ul {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
 }
 
 body {
     background-color: #eee;
     color: darkblue;
-    width: 768px;
+    width: 90%;
     margin: auto;
     padding: 30px;
 }
@@ -30,4 +31,3 @@ header h1 {
     float: right;
     margin-bottom: 0px;
 }
-
