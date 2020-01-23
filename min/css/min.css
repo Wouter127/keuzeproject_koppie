@@ -4,7 +4,29 @@
 /* Schrijf hier je aanpassingen die specifiek voor MIN zijn
 en die bovenop materialize komen */
 
+nav {
+    background-color: dodgerblue;
+    color: white;
+    text-align: center;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+}
+
 body {
     background-color: #eee;
     color: darkblue;
+    width: 768px;
+    margin: auto;
+    padding: 30px;
+}
+header img{
+    float: top;
+}
+
+header h1 {
+    float: right;
+    margin-bottom: 0px;
 }
