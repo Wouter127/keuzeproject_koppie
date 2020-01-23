@@ -55,3 +55,11 @@ p {
 footer.page-footer {
   margin: 0;
 }
+
+.grey-color {
+    color: #484f51;
+}
+
+a{
+    color: red;
+}
