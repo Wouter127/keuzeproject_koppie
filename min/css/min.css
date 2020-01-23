@@ -31,3 +31,12 @@ header h1 {
     float: right;
     margin-bottom: 0px;
 }
+
+footer p img {
+    float: right;
+}
+
+.dodger {
+    background-color: dodgerblue;
+    color: white;
+}
