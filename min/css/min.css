@@ -22,6 +22,7 @@ body {
     margin: auto;
     padding: 30px;
 }
+
 header img{
     float: top;
 }
@@ -31,3 +32,7 @@ header h1 {
     margin-bottom: 0px;
 }
 
+.dodgerblue, nav{
+    background-color: dodgerblue;
+    color: white; 
+}
