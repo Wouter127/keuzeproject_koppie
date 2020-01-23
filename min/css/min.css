@@ -13,9 +13,10 @@ nav {
 nav ul {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
+.container,
 body {
     background-color: #eee;
     color: darkblue;
@@ -24,7 +25,7 @@ body {
     padding: 30px;
 }
 
-header img{
+header img {
     float: top;
 }
 
@@ -42,6 +43,6 @@ footer p img {
     color: white;
 }
 
-footer p{
+footer p {
     padding-left: 17px;
 }
