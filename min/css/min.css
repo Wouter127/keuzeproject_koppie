@@ -4,6 +4,10 @@
 /* Schrijf hier je aanpassingen die specifiek voor MIN zijn
 en die bovenop materialize komen */
 
+.dodgerblue {
+    background-color: dodgerblue;
+    color: white;
+}
 
 nav {
     background-color: dodgerblue;
@@ -11,44 +15,63 @@ nav {
     text-align: center;
 }
 
-nav ul {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-}
-
-.container,
 body {
-    background-color: #eee;
-    color: darkblue;
-    width: 90%;
     margin: auto;
-    padding: 30px;
 }
 
-header img {
-    float: top;
+a {
+    text-decoration: underline;
 }
 
-header h1 {
-    float: right;
-    margin-bottom: 0px;
-}
-
-footer p img {
-    float: right;
-}
-
-.dodgerblue {
-    background-color: dodgerblue;
-    color: white;
-}
-
-footer p {
-    padding-left: 17px;
-    margin-top: -5px !important;
+nav a {
+    text-decoration: none;
 }
 
 #onderfooter {
     padding-bottom: 15px;
+}
+
+footer img {
+    float: right;
+}
+
+@media only screen and (max-width:600px) {
+    body {
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 992px) {}
+
+@media only screen and (min-width: 993px) {
+
+    nav ul {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    footer p {
+        padding-left: 5px;
+        padding-top: 0px;
+        margin-top: 0px;
+    }
+
+    header img {
+        float: top;
+    }
+
+    header h1 {
+        float: right;
+        margin-bottom: 0px;
+    }
+
+    .container,
+    body {
+        background-color: #eee;
+        color: darkblue;
+        width: 90%;
+        padding: 30px;
+    }
+
 }
