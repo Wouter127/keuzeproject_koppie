@@ -7,12 +7,16 @@ en die bovenop materialize komen */
 .dodgerblue {
     background-color: dodgerblue;
     color: white;
+    border-radius: 0px 30px 0px 30px;
+    box-shadow: 3px 3px 3px grey;
 }
 
 nav {
     background-color: dodgerblue;
     color: white;
     text-align: center;
+    border-radius: 0px 30px 0px 30px;
+    box-shadow: 3px 3px 3px grey;
 }
 
 body {
@@ -38,6 +42,11 @@ footer img {
 
 #onderfooter {
     padding-bottom: 15px;
+}
+
+footer div p a{
+    color: yellow;
+    background-color: dodgerblue;
 }
 
 @media only screen and (max-width:600px) {
@@ -98,6 +107,10 @@ footer img {
 
     #mobilefooter {
         display: block;
+    }
+
+    footer div p {
+        padding-left: 17px;
     }
 }
 
