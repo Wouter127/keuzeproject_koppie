@@ -45,4 +45,9 @@ footer p img {
 
 footer p {
     padding-left: 17px;
+    margin-top: -5px !important;
+}
+
+#onderfooter {
+    padding-bottom: 15px;
 }
