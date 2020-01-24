@@ -18,8 +18,24 @@
         <header>
             <img src="images/placeholderlogo.jfif" alt="logo" width="100">
             <h1>Onze sponsors</h1>
-            <nav>
-                <ul>
+            <div id="navigatie">
+                <nav>
+                    <div class="nav-wrapper">
+                        <a href="#" data-target="mobile-demo" class="sidenav-trigger">
+                        <i class="material-icons">menu</i></a>
+                        <ul class="hide-on-med-and-down">
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="opisop.html">OP = OP</a></li>
+                            <li><a href="onzeactiviteiten.html">Onze activiteiten</a></li>
+                            <li><a href="onzesponsors.html">Onze sponsors</a></li>
+                            <li><a href="doneren.html">Ook doneren?</a></li>
+                            <li><a href="partners.html">Onze partners in het armoedebeleid</a></li>
+                            <li><a href="historiek.html">Historiek</a></li>
+                        </ul>
+                    </div>
+                </nav>
+                
+                <ul class="sidenav" id="mobile-demo">
                     <li><a href="index.html">Home</a></li>
                     <li><a href="opisop.html">OP = OP</a></li>
                     <li><a href="onzeactiviteiten.html">Onze activiteiten</a></li>
@@ -28,7 +44,7 @@
                     <li><a href="partners.html">Onze partners in het armoedebeleid</a></li>
                     <li><a href="historiek.html">Historiek</a></li>
                 </ul>
-            </nav>
+            </div>
         </header>
 
         <article>
@@ -153,5 +169,11 @@
         </footer>
     </div>
     <!--JavaScript at end of body for optimized loading-->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.js"></script>
     <script type="text/javascript" src="js/materialize.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            $('.sidenav').sidenav();
+        });
+    </script>
 </body></html>
