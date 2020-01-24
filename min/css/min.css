@@ -27,12 +27,16 @@ nav a {
     text-decoration: none;
 }
 
-#onderfooter {
-    padding-bottom: 15px;
-}
-
 footer img {
     float: right;
+}
+
+#rowheader {
+    font-weight: bold;
+    font-size: 20px;
+
+#onderfooter {
+    padding-bottom: 15px;
 }
 
 @media only screen and (max-width:600px) {
@@ -72,6 +76,75 @@ footer img {
         color: darkblue;
         width: 90%;
         padding: 30px;
+    }
+
+}
+
+@media only screen and (max-width:600px) {
+    body {
+        width: 100%;
+    }
+    
+    footer p{
+        padding-top: 0px;
+        margin-top: 0px;
+        padding-left: 5px;
+    }
+    
+    #mainfooter{
+        display: none;
+    }
+    
+    #mobilefooter{
+        display: block;
+    }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 992px) {
+    #mainfooter{
+        display: block;
+    }
+    
+    #mobilefooter{
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 993px) {
+
+    nav ul {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    footer p {
+        padding-left: 17px;
+        margin-top: -5px !important;
+    }
+
+    header img {
+        float: top;
+    }
+
+    header h1 {
+        float: right;
+        margin-bottom: 0px;
+    }
+
+    .container,
+    body {
+        background-color: #eee;
+        color: darkblue;
+        width: 90%;
+    }
+    
+    #mainfooter{
+        display: block;
+    }
+    
+    #mobilefooter{
+        display: none;
     }
 
 }
