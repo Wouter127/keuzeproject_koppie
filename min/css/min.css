@@ -85,28 +85,28 @@ footer img {
     body {
         width: 100%;
     }
-    
-    footer p{
+
+    footer p {
         padding-top: 0px;
         margin-top: 0px;
         padding-left: 5px;
     }
-    
-    #mainfooter{
+
+    #mainfooter {
         display: none;
     }
-    
-    #mobilefooter{
+
+    #mobilefooter {
         display: block;
     }
 }
 
 @media only screen and (min-width: 601px) and (max-width: 992px) {
-    #mainfooter{
+    #mainfooter {
         display: block;
     }
-    
-    #mobilefooter{
+
+    #mobilefooter {
         display: none;
     }
 }
@@ -139,12 +139,12 @@ footer img {
         color: darkblue;
         width: 90%;
     }
-    
-    #mainfooter{
+
+    #mainfooter {
         display: block;
     }
-    
-    #mobilefooter{
+
+    #mobilefooter {
         display: none;
     }
 
