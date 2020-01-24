@@ -52,3 +52,13 @@ footer p {
 #onderfooter {
     padding-bottom: 15px;
 }
+
+.card {
+    height: 200px;
+    width: auto;
+    alig
+}
+
+.card img {
+    align-content: center;
+}
