@@ -11,15 +11,23 @@
     <!--Import materialize.css-->
     <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen" />
     <link href="css/min.css" type="text/css" rel="stylesheet" media="screen" />
+
 </head>
 
 <body>
+    <div id="menu-bar">
+        <div id="menu" onclick="onClickMenu()">
+            <div id="bar1" class="bar"></div>
+            <div id="bar2" class="bar"></div>
+            <div id="bar3" class="bar"></div>
+        </div>
+    </div>
     <div class="container">
         <header>
             <img src="images/placeholderlogo.jfif" alt="logo" width="100">
             <h1>Home</h1>
             <nav>
-                <ul>
+                <ul class="nav" id="nav">
                     <li><a href="index.html">Home</a></li>
                     <li><a href="opisop.html">OP = OP</a></li>
                     <li><a href="onzeactiviteiten.html">Onze activiteiten</a></li>
@@ -55,4 +63,12 @@
     </div>
     <!--JavaScript at end of body for optimized loading-->
     <script type="text/javascript" src="js/materialize.min.js"></script>
-</body></html>
+    <script>
+        function onClickMenu() {
+            document.getElementById("menu").classList.toggle("change");
+            document.getElementById("nav").classList.toggle("change")
+        }
+    </script>
+</body>
+
+</html>
