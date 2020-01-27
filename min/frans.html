@@ -21,9 +21,10 @@
                 <nav>
                     <div class="nav-wrapper">
                         <a href="#" data-target="mobile-demo" class="sidenav-trigger">
-                            <i class="material-icons">menu</i></a>
+                            <i class="material-icons">menu</i>
+                        </a>
                         <ul class="hide-on-med-and-down">
-
+                            <li><img src="images/logo.png" alt="logo" width="65"></li>
                             <li><a class='dropdown-trigger' href='#' data-target='dropdown1'>Langue</a></li>
                         </ul>
                     </div>
@@ -165,18 +166,15 @@
         $(document).ready(function() {
             $('.sidenav').sidenav();
         });
-
     </script>
     <script>
         $('.carousel.carousel-slider').carousel({
             fullWidth: true,
             indicators: true
         });
-
     </script>
     <script>
         $('.dropdown-trigger').dropdown();
-
     </script>
     <script>
         $('.carousel').carousel({
@@ -191,8 +189,5 @@
         $('i#next').click(function() {
             $('.carousel').carousel('next');
         });
-
     </script>
-</body>
-
-</html>
+</body></html>
