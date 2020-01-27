@@ -102,6 +102,10 @@ h1 {
     margin-top: 15px;
 }
 
+#fb {
+    margin-top: 20px;
+}
+
 @media only screen and (max-width: 600px) {
     .row.slider-center {
         position: absolute;
@@ -164,6 +168,14 @@ h1 {
     footer div p {
         padding-left: 17px;
     }
+    
+    #feedmain {
+        display: none;
+    }
+    
+    #feedmobile {
+        display: block;
+    }
 }
 
 @media only screen and (min-width: 601px) and (max-width: 992px) {
@@ -177,6 +189,14 @@ h1 {
 
     #mobilefooter {
         display: none;
+    }
+
+    #feedmain {
+        display: none;
+    }
+    
+    #feedmobile {
+        display: block;
     }
 }
 
@@ -226,5 +246,13 @@ h1 {
 
     #dropdown1 {
         border-radius: 0px 0px 30px 30px;
+    }
+
+    #feedmain {
+        display: block;
+    }
+    
+    #feedmobile {
+        display: none;
     }
 }
