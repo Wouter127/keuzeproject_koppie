@@ -102,11 +102,10 @@ h1 {
     margin-top: 15px;
 }
 
-.row.slider-center {
-    position: absolute;
-    top:50%;
-    width:100%;
+#fb {
+    margin-top: 20px;
 }
+
 i#next {
       position: absolute;
     right: 10px;
@@ -160,6 +159,14 @@ i#prev {
     footer div p {
         padding-left: 17px;
     }
+    
+    #feedmain {
+        display: none;
+    }
+    
+    #feedmobile {
+        display: block;
+    }
 }
 
 @media only screen and (min-width: 601px) and (max-width: 992px) {
@@ -173,6 +180,14 @@ i#prev {
 
     #mobilefooter {
         display: none;
+    }
+
+    #feedmain {
+        display: none;
+    }
+    
+    #feedmobile {
+        display: block;
     }
 }
 
@@ -222,5 +237,13 @@ i#prev {
 
     #dropdown1 {
         border-radius: 0px 0px 30px 30px;
+    }
+
+    #feedmain {
+        display: block;
+    }
+    
+    #feedmobile {
+        display: none;
     }
 }
