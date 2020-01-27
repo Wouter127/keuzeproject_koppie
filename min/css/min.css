@@ -80,6 +80,7 @@ footer div p a {
     top: 10px;
     left: 50%;
     transform: translate(-50%, -50%);
+    margin-top: 30px;
 }
 
 .slidertekst a {
@@ -88,6 +89,17 @@ footer div p a {
     background-color: transparent;
 }
 
+h1 {
+    text-align: center;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+.opisop {
+    margin-top: 15px;
+}
+
+@media only screen and (max-width: 600px) {
 .row.slider-center {
     position: absolute;
     top: 50%;
@@ -155,11 +167,6 @@ i#prev {
         display: none;
     }
 
-    header h1 {
-        float: right;
-        margin-bottom: 0px;
-    }
-
     #mainfooter {
         display: block;
     }
@@ -190,11 +197,6 @@ i#prev {
 
     header img {
         float: top;
-    }
-
-    header h1 {
-        float: right;
-        margin-bottom: 0px;
     }
 
     .container,
