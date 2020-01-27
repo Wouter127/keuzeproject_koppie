@@ -7,7 +7,7 @@ en die bovenop materialize komen */
 .dodgerblue {
     background-color: dodgerblue;
     color: white;
-    border-radius: 0px 30px 0px 30px;
+    border-radius: 0px 0px 30px 30px;
     box-shadow: 3px 3px 3px grey;
 }
 
@@ -30,7 +30,7 @@ nav {
     background-color: dodgerblue;
     color: white;
     text-align: center;
-    border-radius: 0px 30px 0px 30px;
+    border-radius: 0px 0px 30px 30px;
     box-shadow: 3px 3px 3px grey;
     margin-bottom: 15px;
 }
@@ -38,6 +38,8 @@ nav {
 body {
     margin: auto;
     line-height: 1.5;
+    background-color: #eee;
+    color: darkblue;
 }
 
 a {
@@ -64,6 +66,11 @@ footer img {
 footer div p a {
     color: #ffeb3b;
     background-color: dodgerblue;
+}
+
+.carousel {
+    max-height: 200px;
+    box-shadow: 3px 0px 3px grey;
 }
 
 @media only screen and (max-width:600px) {
