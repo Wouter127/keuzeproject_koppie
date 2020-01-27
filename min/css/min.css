@@ -79,6 +79,7 @@ footer div p a {
     top: 10px;
     left: 50%;
     transform: translate(-50%, -50%);
+    margin-top: 30px;
 }
 
 .slidertekst a {
@@ -89,6 +90,44 @@ footer div p a {
 
 #navigatie {
     padding-top: 15px;
+
+h1 {
+    text-align: center;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+.opisop {
+    margin-top: 15px;
+}
+
+@media only screen and (max-width: 600px) {
+.row.slider-center {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+}
+
+i#next {
+    position: absolute;
+    right: 10px;
+    color: #fff;
+    background: #634e4e99;
+    font-size: 35px;
+    font-weight: 800;
+    border-radius: 50px;
+    border: 1px solid;
+}
+
+i#prev {
+    position: absolute;
+    left: 20px;
+    color: #fff;
+    background: #634e4e99;
+    font-size: 35px;
+    font-weight: 800;
+    border-radius: 50px;
+    border: 1px solid;
 }
 
 @media only screen and (max-width:600px) {
@@ -130,11 +169,6 @@ footer div p a {
         display: none;
     }
 
-    header h1 {
-        float: right;
-        margin-bottom: 0px;
-    }
-
     #mainfooter {
         display: block;
     }
@@ -166,11 +200,6 @@ footer div p a {
 
     header img {
         float: top;
-    }
-
-    header h1 {
-        float: right;
-        margin-bottom: 0px;
     }
 
     .container,
