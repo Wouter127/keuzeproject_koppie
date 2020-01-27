@@ -38,6 +38,8 @@ nav {
 body {
     margin: auto;
     line-height: 1.5;
+    background-color: #eee;
+    color: darkblue;
 }
 
 a {
