@@ -15,10 +15,31 @@
 </head>
 
 <body>
+
     <div class="container">
         <header>
             <img src="images/placeholderlogo.jfif" alt="logo" width="100">
-            <h1>Home</h1>
+            <slideshow>
+                <div class="carousel carousel-slider center">
+                    <div class="carousel-item white-text" href="#one!">
+                        <img src="" alt="">
+                        <h2>Home</h2>
+                    </div>
+                    <div class="carousel-item white-text" href="#two!">
+                        <img src="" alt="">
+                        <h2>Second Panel</h2>
+                    </div>
+                    <div class="carousel-item white-text" href="#three!">
+                        <img src="" alt="">
+                        <h2>Third Panel</h2>
+                    </div>
+                    <div class="carousel-item white-text" href="#four!">
+                        <img src="" alt="">
+                        <h2>Fourth Panel</h2>
+                    </div>
+                </div>
+            </slideshow>
+
             <div id="navigatie">
                 <nav>
                     <div class="nav-wrapper">
@@ -47,6 +68,7 @@
                 </ul>
             </div>
         </header>
+
 
         <article class="row">
             <p class="col s12">Actie mensen in nood is een organisatie die mensen in armoede nabij is. We proberen mee te zoeken naar oplossingen of verwijzen naar de instanties die verder kunnen helpen. Wij zijn actief in de regio Mol, Balen, Dessel en Retie.</p>
@@ -119,6 +141,12 @@
     <script>
         $(document).ready(function() {
             $('.sidenav').sidenav();
+        });
+    </script>
+    <script>
+        $('.carousel.carousel-slider').carousel({
+            fullWidth: true,
+            indicators: true
         });
     </script>
 </body></html>
