@@ -40,6 +40,7 @@ body {
     line-height: 1.5;
     background-color: #eee;
     color: darkblue;
+    font-family: Arial, sans-serif;
 }
 
 a {
@@ -68,16 +69,34 @@ footer div p a {
     background-color: dodgerblue;
 }
 
-.carousel {
-    max-height: 200px;
-    box-shadow: 3px 0px 3px grey;
+.midden {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.slidertekst {
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.slidertekst a {
+    text-decoration: none;
+    color: white;
+    background-color: transparent;
 }
 
 @media only screen and (max-width:600px) {
+    .carousel {
+        display: none;
+    }
+
     body {
         width: 100%;
     }
-  
+
     header h1 {
         float: right;
         margin-bottom: 0px;
@@ -89,6 +108,7 @@ footer div p a {
         padding-top: 0px;
         margin-top: 0px;
     }
+
     #mainfooter {
         display: none;
     }
@@ -103,6 +123,10 @@ footer div p a {
 }
 
 @media only screen and (min-width: 601px) and (max-width: 992px) {
+    .carousel {
+        display: none;
+    }
+
     header h1 {
         float: right;
         margin-bottom: 0px;
@@ -119,10 +143,16 @@ footer div p a {
 
 @media only screen and (min-width: 993px) {
 
+    .carousel {
+        height: 280px;
+        max-height: 280px;
+        box-shadow: 3px 0px 3px grey;
+    }
+
     nav ul {
         display: flex;
         flex-wrap: wrap;
-        justify-content: space-around;
+        justify-content: center;
     }
 
     footer p {
