@@ -15,6 +15,52 @@
 
 <body>
     <div class="container">
+        <header>
+
+            <div id="navigatie">
+                <nav>
+                    <div class="nav-wrapper">
+                        <a href="#" data-target="mobile-demo" class="sidenav-trigger">
+                            <i class="material-icons">menu</i></a>
+                        <ul class="hide-on-med-and-down">
+                            <li><a href="index.html"><img src="images/logo.png" alt="logo" width="65"></a></li>
+                            <li><a href="opisop.html">OP = OP</a></li>
+                            <li><a href="onzeactiviteiten.html">Onze activiteiten</a></li>
+                            <li><a href="onzesponsors.html">Onze sponsors</a></li>
+                            <li><a href="doneren.html">Ook doneren?</a></li>
+                            <li><a href="partners.html">Onze partners</a></li>
+                            <li><a href="historiek.html">Historiek</a></li>
+                            <li><a class='dropdown-trigger' href='#' data-target='dropdown1'>Taal</a></li>
+                        </ul>
+                    </div>
+                </nav>
+
+                <ul class="sidenav" id="mobile-demo">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="opisop.html">OP = OP</a></li>
+                    <li><a href="onzeactiviteiten.html">Onze activiteiten</a></li>
+                    <li><a href="onzesponsors.html">Onze sponsors</a></li>
+                    <li><a href="doneren.html">Ook doneren?</a></li>
+                    <li><a href="partners.html">Onze partners</a></li>
+                    <li><a href="historiek.html">Historiek</a></li>
+                    <li><a class='dropdown-trigger' href='#' data-target='dropdown2'>Taal</a></li>
+                </ul>
+                <ul id='dropdown1' class='dropdown-content'>
+                    <li><a href="#!">Nederlands</a></li>
+                    <li><a href="#!">Frans</a></li>
+                    <li><a href="#!">Engels</a></li>
+                    <li><a href="#!">four</a></li>
+                    <li><a href="#!">five</a></li>
+                </ul>
+                <ul id='dropdown2' class='dropdown-content'>
+                    <li><a href="#!">Nederlands</a></li>
+                    <li><a href="#!">Frans</a></li>
+                    <li><a href="#!">Engels</a></li>
+                    <li><a href="#!">four</a></li>
+                    <li><a href="#!">five</a></li>
+                </ul>
+            </div>
+        </header>
         <slideshow>
             <div class="carousel carousel-slider center">
 
@@ -32,36 +78,7 @@
                 </div>
             </div>
         </slideshow>
-        <header>
 
-            <div id="navigatie">
-                <nav>
-                    <div class="nav-wrapper">
-                        <a href="#" data-target="mobile-demo" class="sidenav-trigger">
-                            <i class="material-icons">menu</i></a>
-                        <ul class="hide-on-med-and-down">
-                            <li><a href="index.html"><img src="images/logo.png" alt="logo" width="65"></a></li>
-                            <li><a href="opisop.html">OP = OP</a></li>
-                            <li><a href="onzeactiviteiten.html">Onze activiteiten</a></li>
-                            <li><a href="onzesponsors.html">Onze sponsors</a></li>
-                            <li><a href="doneren.html">Ook doneren?</a></li>
-                            <li><a href="partners.html">Onze partners</a></li>
-                            <li><a href="historiek.html">Historiek</a></li>
-                        </ul>
-                    </div>
-                </nav>
-
-                <ul class="sidenav" id="mobile-demo">
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="opisop.html">OP = OP</a></li>
-                    <li><a href="onzeactiviteiten.html">Onze activiteiten</a></li>
-                    <li><a href="onzesponsors.html">Onze sponsors</a></li>
-                    <li><a href="doneren.html">Ook doneren?</a></li>
-                    <li><a href="partners.html">Onze partners</a></li>
-                    <li><a href="historiek.html">Historiek</a></li>
-                </ul>
-            </div>
-        </header>
 
 
         <article class="row">
@@ -136,11 +153,20 @@
         $(document).ready(function() {
             $('.sidenav').sidenav();
         });
+
     </script>
     <script>
         $('.carousel.carousel-slider').carousel({
             fullWidth: true,
             indicators: true
         });
+
     </script>
-</body></html>
+    <script>
+        $('.dropdown-trigger').dropdown();
+
+    </script>
+
+</body>
+
+</html>
