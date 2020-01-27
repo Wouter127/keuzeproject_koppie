@@ -15,23 +15,6 @@
 
 <body>
     <div class="container">
-        <slideshow>
-            <div class="carousel carousel-slider center">
-                <div class="carousel-item white-text midden" href="#one!">
-                    <img src="images/slide1.jpg" alt="voedsel in manden">
-                    <h1 class="slidertekst">Home</h1>
-                </div>
-                <div class="carousel-item white-text" href="#two!">
-                    <img src="images/slide2.jpg" alt="brood geven">
-                    <h2 class="slidertekst"><a href="opisop.html">Wekelijkse voedselbedeling</a></h2>
-                </div>
-                <div class="carousel-item white-text" href="#three!">
-                    <img src="images/slide3.jpg" alt="groepsfoto vrijwilligers">
-                    <h2 class="slidertekst">Onze vrijwilligers</h2>
-                </div>
-                <div class="row slider-center"><i id="next" class="material-icons">chevron_right</i> <i id="prev" class="material-icons">chevron_left</i></div>
-            </div>
-        </slideshow>
         <header>
 
             <div id="navigatie">
@@ -53,13 +36,13 @@
                 </nav>
 
                 <ul class="sidenav" id="mobile-demo">
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="opisop.html">OP = OP</a></li>
-                    <li><a href="onzeactiviteiten.html">Onze activiteiten</a></li>
-                    <li><a href="onzesponsors.html">Onze sponsors</a></li>
-                    <li><a href="doneren.html">Ook doneren?</a></li>
-                    <li><a href="partners.html">Onze partners</a></li>
-                    <li><a href="historiek.html">Historiek</a></li>
+                    <li><a href="index.html"><i class="material-icons">home</i>Home</a></li>
+                    <li><a href="opisop.html"><i class="material-icons">local_grocery_store</i>OP = OP</a></li>
+                    <li><a href="onzeactiviteiten.html"><i class="material-icons">event</i>Onze activiteiten</a></li>
+                    <li><a href="onzesponsors.html"><i class="material-icons">perm_identity</i>Onze sponsors</a></li>
+                    <li><a href="doneren.html"><i class="material-icons">attach_money</i>Ook doneren?</a></li>
+                    <li><a href="partners.html"><i class="material-icons">supervisor_account</i>Onze partners</a></li>
+                    <li><a href="historiek.html"><i class="material-icons">history</i>Historiek</a></li>
                     <li><a class='dropdown-trigger' href='#' data-target='dropdown2'>Taal</a></li>
                 </ul>
                 <ul id='dropdown1' class='dropdown-content'>
@@ -75,14 +58,6 @@
                     <li><a href="#!">Engels</a></li>
                     <li><a href="#!">four</a></li>
                     <li><a href="#!">five</a></li>
-                  
-                    <li><a href="index.html"><i class="material-icons">home</i>Home</a></li>
-                    <li><a href="opisop.html"><i class="material-icons">local_grocery_store</i>OP = OP</a></li>
-                    <li><a href="onzeactiviteiten.html"><i class="material-icons">event</i>Onze activiteiten</a></li>
-                    <li><a href="onzesponsors.html"><i class="material-icons">perm_identity</i>Onze sponsors</a></li>
-                    <li><a href="doneren.html"><i class="material-icons">attach_money</i>Ook doneren?</a></li>
-                    <li><a href="partners.html"><i class="material-icons">supervisor_account</i>Onze partners</a></li>
-                    <li><a href="historiek.html"><i class="material-icons">history</i>Historiek</a></li>
                 </ul>
             </div>
         </header>
@@ -191,6 +166,7 @@
         $('.dropdown-trigger').dropdown();
 
     </script>
+    <script>
         $('.carousel').carousel({
             fullWidth: true,
             indicators: true
@@ -203,5 +179,8 @@
         $('i#next').click(function() {
             $('.carousel').carousel('next');
         });
+
     </script>
-</body></html>
+</body>
+
+</html>
