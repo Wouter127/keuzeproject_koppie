@@ -30,9 +30,8 @@ nav {
     background-color: dodgerblue;
     color: white;
     text-align: center;
-    border-radius: 0px 0px 30px 30px;
+    border-radius: 30px 30px 0px 0px;
     box-shadow: 3px 3px 3px grey;
-    margin-bottom: 15px;
 }
 
 body {
@@ -88,6 +87,9 @@ footer div p a {
     color: white;
     background-color: transparent;
 }
+
+#navigatie {
+    padding-top: 15px;
 
 h1 {
     text-align: center;
@@ -181,7 +183,8 @@ i#prev {
     .carousel {
         height: 280px;
         max-height: 280px;
-        box-shadow: 3px 0px 3px grey;
+        box-shadow: 3px 3px 3px grey;
+        padding-bottom: 15px;
     }
 
     nav ul {
@@ -214,4 +217,11 @@ i#prev {
         display: none;
     }
 
-}
+    #dropdown1 li a {
+        color: white;
+        background-color: dodgerblue;
+    }
+
+    #dropdown1 {
+        border-radius: 0px 0px 30px 30px;
+    }
